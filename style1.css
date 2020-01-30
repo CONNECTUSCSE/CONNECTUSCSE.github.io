@@ -1,0 +1,265 @@
+.asd {
+     background-image: url('images/studentbanner.jpg');
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 550px;
+   }
+   #menu .active a
+   {
+    background: #2651a8;
+    border-radius: 6px;
+    color: rgba(255,255,255,1);
+  }
+  nav>a{
+    color:white;
+  }
+  li>a{
+    color:white;
+  }
+
+  table {
+    color:white ;
+  }
+  .card{
+
+    border-radius: 80%;
+    border :0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-img-top{
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  nav{
+    float:right;
+  }
+/*
+*******************************************/
+
+.how-section1{
+  background-color: #121212;
+    margin-top:-15%;
+    padding: 10%;
+    
+}
+.how-section1 h4{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #fff;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+.rounded{
+  border-radius: 10px;
+}
+
+.text-white{
+  background-color: #2D2D2D;
+
+}
+
+/**********************************************************8*/
+.section-title {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title-divider {
+  width: 50px;
+  height: 3px;
+  background: #03C4EB;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#about {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#about .about-img {
+  overflow: hidden;
+}
+
+#about .about-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .about-content {
+  background: #fff;
+}
+
+#about .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about .about-text:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+*******************************************/
+#hero {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url("images/studentbanner.jpg") top center;
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+#hero .hero-logo {
+  margin: 20px;
+}
+
+#hero .hero-logo img {
+  max-width: 100%;
+}
+
+#hero .hero-container {
+  background: rgba(0, 0, 0, 0.6);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  #hero h2 .rotating {
+    display: block;
+  }
+}
+
+#hero .rotating > .animated {
+  display: inline-block;
+}
+
+#hero .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+#hero .btn-get-started {
+  background: rgb(14, 102, 173);
+  border: 2px solid rgb(14, 102, 173);
+  color: #fff;
+}
+
+#hero .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-services:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+
+/**************************************************************/
+#ab1{
+  padding: 5%;
+  background-color: #121212;
+}
+
+.rr{
+  border-color: #fff;
+  border: 1px solid;
+  border-radius: 3%;
+}
+.card{
+  background-color: #343A40;
+}
+#ff{
+  background-color: #121212;
+}
+#at{
+  color: #ffffff;
+}
